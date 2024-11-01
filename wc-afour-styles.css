@@ -1,0 +1,31 @@
+table.form-table { width: auto; }
+table.form-table tr { background: #f3f3f3; border: 1px solid #e3e3e3; }
+table.form-table tr:nth-of-type(odd) { background: #f6f6f6; }
+table.form-table tr th { width: 290px; padding: 10px; text-align: left; display: inline-block; }
+table.form-table tr td { padding: 10px 0 10px 10px; float: left; display: inline-block; }
+table.form-table tr td input[type="text"] { width: 100px; }
+table.form-table tr td input[type="checkbox"] { margin-right: 0; }
+table.form-table tr th h3 { margin: 0; padding-bottom: 3px; }
+.wc-afour-sidebar { background: #f6f6f6; border: 1px solid #e3e3e3; max-width: 388px; width: 40%; position: absolute; top: 59px; right: 60px; }
+.wc-afour-sidebar h2 { background: #fff; border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; margin: 0; padding: 14px 12px; text-align: center; }
+.wc-afour-sidebar h2:first-of-type { border-top: none; }
+.wc-afour-sidebar p { text-align: center; padding: 0 10px; }
+.wc-afour-sidebar a { text-decoration: none; }
+.wc-afour-sidebar textarea { margin: 15px auto; max-width: 358px; width: 93%; display: block; }
+.wc-afour-pro-tag { color: #999; font-size: 0.9em; }
+.wc-afour-upgrade-alert { display: none; position: absolute; z-index: 999; background: rgba(255,255,255,0.9); color: #333; padding: 12px 12px 0; text-align: center; box-sizing: border-box; font-weight: bold; vertical-align: middle; }
+.wc-afour-upgrade-alert a { text-decoration: none; }
+.wc-afour-fb-box { background: #f6f6f6; border: 1px solid #e3e3e3; max-width: 388px; width: 40%; position: absolute; top: 600px; right: 60px; }
+.wc-afour-fb-box h2 { background: #fff; border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; margin: 0; padding: 14px 12px; text-align: center; }
+.wc-afour-fb-box h2:first-of-type { border-top: none; }
+.wc-afour-fb-box p { text-align: center; padding: 0 10px; }
+.wc-afour-fb-box a { text-decoration: none; }
+.fb-page { width: 100%; text-align: center; margin: 10px 0 23px; }
+@media (max-width: 960px) {
+    .wc-afour-sidebar { right: 30px; }
+    .wc-afour-fb-box { right: 30px; }
+}
+@media (max-width: 782px) {
+    .wc-afour-sidebar { position: inherit; top: auto; right: auto; width: 100%; max-width: 422px; }
+    .wc-afour-fb-box { position: inherit; top: auto; right: auto; width: 100%; max-width: 422px; }
+}
